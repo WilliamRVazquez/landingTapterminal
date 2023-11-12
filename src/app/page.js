@@ -136,7 +136,7 @@ export default function Home() {
           </div>
         </div>
         <div className="w-full">
-          <h2 className="text-3xl">Mapa del puerto</h2>
+          <h2 className="text-3xl font-semibold mb-5">Mapa del puerto</h2>
           <div>
             <Image
               className="w-full h-auto"
