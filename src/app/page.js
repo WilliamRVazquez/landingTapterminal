@@ -58,7 +58,7 @@ export default function Home() {
           </div>
           <div className="md:w-1/3 md:ml-auto">
             <Image
-              className="rounded-md"
+              className="rounded-md h-full"
               src={trabajadores}
               alt="Trabajadores"
             />
