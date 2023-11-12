@@ -38,33 +38,33 @@ const Navbar = () => {
             isMenuOpen ? "opacity-100 top-full" : "opacity-0 top-[-400px]"
           } transition-all ease-in duration-300`}
         >
-          <li>
+          <li className="py-2 px-3">
             <Link
-              className="mx-4 my-6 md:px-5 md:py-3 hover:text-yellow-400 md:hover:text-black md:hover:bg-yellow-300 font-semibold rounded-full duration-300"
+              className="md:px-5 md:py-3 hover:text-yellow-400 md:hover:text-black md:hover:bg-yellow-300 font-semibold rounded-full duration-300"
               href="#"
             >
               Inicio
             </Link>
           </li>
-          <li>
+          <li  className="py-2 px-3">
             <Link
-              className="mx-4 my-6 md:px-5 md:py-3 hover:text-yellow-400 md:hover:text-black md:hover:bg-yellow-300 font-semibold rounded-full duration-300"
+              className="md:px-5 md:py-3 hover:text-yellow-400 md:hover:text-black md:hover:bg-yellow-300 font-semibold rounded-full duration-300"
               href="#"
             >
               Atencion a clientes
             </Link>
           </li>
-          <li>
+          <li  className="py-2 px-3">
             <Link
-              className="mx-4 my-6 md:px-5 md:py-3 hover:text-yellow-400 md:hover:text-black md:hover:bg-yellow-300 font-semibold rounded-full duration-300"
+              className="md:px-5 md:py-3 hover:text-yellow-400 md:hover:text-black md:hover:bg-yellow-300 font-semibold rounded-full duration-300"
               href="#"
             >
               Infraestructura y equipamiento
             </Link>
           </li>
-          <li>
+          <li  className="py-2 px-3">
             <Link
-              className="mx-4 my-6 md:px-5 md:py-3 hover:text-yellow-400 md:hover:text-black md:hover:bg-yellow-300 font-semibold rounded-full duration-300"
+              className="md:px-5 md:py-3 hover:text-yellow-400 md:hover:text-black md:hover:bg-yellow-300 font-semibold rounded-full duration-300"
               href="#"
             >
               Noticias
