@@ -1,13 +1,46 @@
-<div className="flex flex-col w-full justify-center">
-        <div className="px-[220px]">
-          <h2 className="text-3xl font-semibold">Valores</h2>
+<div className="flex md:flex-row flex-col justify-center">
+        <div className="md:w-1/2">
+          <h2 className="text-3xl font-semibold mb-5">Historia</h2>
+          <p className="mb-4">
+            Líder en el Puerto de Manzanillo en el manejo de carga general,
+            Comercializadora La Junta, y Maniobrista La Junta forman parte de
+            Tap Logística Portuaria, una empresa 100% mexicana que ofrece
+            servicios integrales de carga, descarga, almacenaje y transporte a
+            destino final.
+          </p>
+          <p className="mb-4">
+            Tap Logística Portuaria fue fundada en el año 2006 con inversión
+            100% mexicana y está enfocada en las cadenas logísticas que conectan
+            al Puerto de Manzanillo con el norte y centro de México. Estamos
+            ubicados en Manzanillo, el principal punto de encuentro con el
+            mercado asiático y americano.
+          </p>
+          <p>
+            Somos prestadores de servicios secundarios en el puerto más
+            importante de México: Manzanillo (Colima). En TAP estamos
+            comprometidos a brindar soluciones a nuestros clientes, a través de
+            servicios de calidad y esquemas operativos eficientes en materia de
+            comercio exterior.
+          </p>
         </div>
-        <div className="flex md:flex-row gap-5 justify-center items-center text-center w-full px-[220px]">
-          <div className="flex flex-col items-center w-1/4">
-            <h3 className="text-8xl text-yellow-300">
-              <AiOutlineUser />
-            </h3>
-            <h4>SATISFACCIÓN</h4>
+        <div className="w-full md:w-[480px] h-[480px]">
+          <Image className="rounded-md" src={trabajadores} alt="Trabajadores" />
+        </div>
+      </div>
+      <div className="mb-10 flex md:flex-col">
+        <div className="">
+          <h3 className="text-3xl font-semibold mb-5">Valores</h3>
+        </div>
+        <div className="flex md:flex-row flex-col w-full">
+          <div className="w-1/5">
+            <div className="">
+              <h3 className="text-8xl text-yellow-300">
+                <AiOutlineUser />
+              </h3>
+            </div>
+            <div>
+              <h4 className="font-semibold my-5">SATISFACCIÓN</h4>
+            </div>
             <div>
               <p>
                 Buscamos siempre la satisfacción total de nuestros clientes y
@@ -15,11 +48,15 @@
               </p>
             </div>
           </div>
-          <div className="flex flex-col items-center w-1/4">
-            <h3 className="text-8xl text-yellow-300">
-              <BsFillHouseFill />
-            </h3>
-            <h4>CAPACIDAD</h4>
+          <div className="w-1/5">
+            <div className="">
+              <h3 className="text-8xl text-yellow-300">
+                <BsFillHouseFill />
+              </h3>
+            </div>
+            <div className="font-semibold my-5">
+            </div>
+              <h4 className="font-semibold my-5">CAPACIDAD</h4>
             <div>
               <p>
                 Contamos con más de 35,000 M² de superficie con capacidad para
@@ -27,11 +64,15 @@
               </p>
             </div>
           </div>
-          <div className="flex flex-col items-center w-1/4">
-            <h3 className="text-8xl text-yellow-300">
-              <IoExpandSharp />
-            </h3>
-            <h4>FLEXIBILIDAD</h4>
+          <div className="w-1/5">
+            <div className="">
+              <h3 className="text-8xl text-yellow-300">
+                <IoExpandSharp />
+              </h3>
+            </div>
+            <div className="font-semibold my-5">
+              <h4>FLEXIBILIDAD</h4>
+            </div>
             <div>
               <p>
                 Tenemos la flexibilidad de adaptarnos a nuestros clientes para
@@ -39,11 +80,15 @@
               </p>
             </div>
           </div>
-          <div className="flex flex-col items-center w-1/4">
-            <h3 className="text-8xl text-yellow-300">
-              <FaHandshake />
-            </h3>
-            <h4>COMPROMISO</h4>
+          <div className="w-1/5">
+            <div className="">
+              <h3 className="text-8xl text-yellow-300">
+                <FaHandshake />
+              </h3>
+            </div>
+            <div className="font-semibold my-5">
+              <h4>COMPROMISO</h4>
+            </div>
             <div>
               <p>
                 Tenemos compromiso con la calidad de nuestro servicio y la
@@ -53,5 +98,13 @@
               </p>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="w-full">
+        <div>
+          <h2 className="text-3xl">Mapa del puerto</h2>
+        </div>
+        <div>
+          <Image className="w-full h-auto" src={mapaPuerto} alt="Mapa del puerto" />
         </div>
       </div>
