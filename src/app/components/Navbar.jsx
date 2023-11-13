@@ -40,7 +40,7 @@ const Navbar = () => {
         >
           <li className="py-2 px-3">
             <Link
-              className="md:px-5 md:py-3 hover:text-yellow-400 md:hover:text-black md:hover:bg-yellow-300 font-semibold rounded-full duration-300"
+              className="md:px-5 md:py-3 hover:text-yellow-400 md:hover:text-black md:hover:bg-yellow-300 font-semibold rounded-md duration-300"
               href="#"
             >
               Inicio
@@ -48,7 +48,7 @@ const Navbar = () => {
           </li>
           <li  className="py-2 px-3">
             <Link
-              className="md:px-5 md:py-3 hover:text-yellow-400 md:hover:text-black md:hover:bg-yellow-300 font-semibold rounded-full duration-300"
+              className="md:px-5 md:py-3 hover:text-yellow-400 md:hover:text-black md:hover:bg-yellow-300 font-semibold rounded-md duration-300"
               href="#"
             >
               Atencion a clientes
@@ -56,7 +56,7 @@ const Navbar = () => {
           </li>
           <li  className="py-2 px-3">
             <Link
-              className="md:px-5 md:py-3 hover:text-yellow-400 md:hover:text-black md:hover:bg-yellow-300 font-semibold rounded-full duration-300"
+              className="md:px-5 md:py-3 hover:text-yellow-400 md:hover:text-black md:hover:bg-yellow-300 font-semibold rounded-md duration-300"
               href="#"
             >
               Infraestructura y equipamiento
@@ -64,7 +64,7 @@ const Navbar = () => {
           </li>
           <li  className="py-2 px-3">
             <Link
-              className="md:px-5 md:py-3 hover:text-yellow-400 md:hover:text-black md:hover:bg-yellow-300 font-semibold rounded-full duration-300"
+              className="md:px-5 md:py-3 hover:text-yellow-400 md:hover:text-black md:hover:bg-yellow-300 font-semibold rounded-md duration-300"
               href="#"
             >
               Noticias

@@ -56,7 +56,7 @@ export default function Home() {
               materia de comercio exterior.
             </p>
           </div>
-          <div className="md:w-1/3 md:ml-auto">
+          <div className="md:w-1/2 md:ml-auto">
             <Image
               className="rounded-md h-full"
               src={trabajadores}

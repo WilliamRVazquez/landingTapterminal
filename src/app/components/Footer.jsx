@@ -34,13 +34,13 @@ const Footer = () => {
           <h1 className="text-base md:text-xl font-semibold text-yellow-400">OTROS LINKS</h1>
           <ul className="md:text-base text-xs">
             <li>
-              <Link href="#">API Manzanillo</Link>
+              <Link href="#" className="underline hover:no-underline">API Manzanillo</Link>
             </li>
             <li>
-              <Link href="#">Turismo Manzanillo</Link>
+              <Link href="#" className="underline hover:no-underline">Turismo Manzanillo</Link>
             </li>
             <li>
-              <Link href="#">Preguntas frecuentes</Link>
+              <Link href="#" className="underline hover:no-underline">Preguntas frecuentes</Link>
             </li>
           </ul>
         </div>
@@ -48,10 +48,10 @@ const Footer = () => {
           <h1 className="text-base md:text-xl font-semibold text-yellow-400 mt-5">Legales</h1>
           <ul className="md:text-base text-xs">
             <li>
-              <Link href="#">Aviso de privacidad</Link>
+              <Link href="#" className="underline hover:no-underline">Aviso de privacidad</Link>
             </li>
             <li>
-              <Link href="#">Términos y Condiciones</Link>
+              <Link href="#" className="underline hover:no-underline">Términos y Condiciones</Link>
             </li>
           </ul>
         </div>
